@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>✨The Impossibly Cacophonic List of my Absolutely Favorite Videos of All Time!✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>THIS TOO SHALL PASS ✨</h1>
+    <p class="header-note">Memento mori</p>
+</header>
+
+        <div class="container">
+            <nav class="sidebar">
+                <button onclick="location.href='index.html'">Home</button>
+                <button onclick="location.href='common_place.html'">Commonplace Book</button>
+                <button onclick="location.href='fav_videos.html'">My Favorite Videos Ever</button>
+                <button onclick="location.href='not_found.html'"><s>Find Me</s></button>
+                <button onclick="location.href='not_found.html'"><s>Guestbook</s></button>
+            </nav>
+
+            <main class="content">
+                <h2>The Impossibly Cacophonic List of my Absolutely Favorite Videos of All Time!</h2>
+                <p>YouTube! Who doesn't love it?<br>...<br>Yeah, don't answer that.<br><br>
+                Despite YouTube's many MANY flaws as a company, its creators are some of the best on the
+                entire Internet! I have a handful (several, actually...) of videos I consider to be
+                my top favorite videos EVER.</p>
+
+            <div id="controls">
+                <label>Filter by:
+                    <select id="tagFilter">
+                        <option value="all" selected>All</option>
+                        <option value="edu">Educational</option>
+                        <option value="vgs">Video-Games</option>
+                        <option value="web">Internet Based</option>
+                        <option value="irl">World Topics</option>
+                        <option value="mov">Movies</option>
+                        <option value="tvs">TV Shows</option>          
+                        <option value="nar">Narrative</option>                                      
+                    </select>
+                </label>
+
+                <label>Sort by:
+                    <select id="sortVideos">
+                        <option value="alphabetical" selected>Alphabetical</option>
+                        <option value="length_s">Length (smallest first)</option>
+                        <option value="length_l">Length (largest first)</option>
+                    </select>
+                </label>
+            </div>
+
+            <ul id="videoList"></ul>
+
+            <script src="fav_videos.js"></script>
+
+            <marquee>✨ T h e &nbsp; I m p o s s i b l y &nbsp; C a c o p h o n i c &nbsp; L i s t &nbsp; o f &nbsp;
+                m y &nbsp; A b s o l u t e l y &nbsp; F a v o r i t e &nbsp; V i d e o s &nbsp; o f &nbsp;
+                A l l &nbsp; T i m e ! ✨</marquee><!-- &nbsp; -->
+        </main>
+    </div>
+</body>
+</html>
